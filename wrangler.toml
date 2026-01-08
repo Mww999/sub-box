@@ -20,7 +20,7 @@ ADMIN_USERNAME = "admin"
 ADMIN_PASSWORD = "vp2026Wangzai77." # Change this to a secure password
 JWT_SECRET = "daaa5a51-ccad-482e-8499-d8252bd1c642" # Change this to a secure secret key
 SESSION_TAG = "0"
-SESSION_DURATION = "7d"
+SESSION_DURATION = "604800"
 DEPLOY_TARGET = "cloudflare"
 
 [[d1_databases]]
