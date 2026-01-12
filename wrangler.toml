@@ -26,7 +26,7 @@ DEPLOY_TARGET = "cloudflare"
 [[d1_databases]]
 binding = "DB"
 database_name = "vp2026" # Change this to the name of your D1 database
-database_id = "bfe0f12e62c8-47f7bd8586e3d960437b" # wrangler d1 info <YOUR_DATABASE_NAME>
+database_id = "92e0a2cd-f842-42b6-84ef-dd2da5c711ac" # wrangler d1 info <YOUR_DATABASE_NAME>
 
 [observability.logs]
 enabled = true
