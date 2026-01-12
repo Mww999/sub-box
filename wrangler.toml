@@ -18,7 +18,7 @@ assets = { directory = ".open-next/assets", binding = "ASSETS" }
 [vars]
 ADMIN_USERNAME = "admin"
 ADMIN_PASSWORD = "vp2026Wangzai77." # Change this to a secure password
-JWT_SECRET = "daaa5a51-ccad-482e-8499-d8252bd1c642" # Change this to a secure secret key
+JWT_SECRET = "daaa5a51ccad482e8499d8252bd1c642" # Change this to a secure secret key
 SESSION_TAG = "0"
 SESSION_DURATION = "604800"
 DEPLOY_TARGET = "cloudflare"
@@ -26,7 +26,7 @@ DEPLOY_TARGET = "cloudflare"
 [[d1_databases]]
 binding = "DB"
 database_name = "vp2026" # Change this to the name of your D1 database
-database_id = "bfe0f12e-62c8-47f7-bd85-86e3d960437b" # wrangler d1 info <YOUR_DATABASE_NAME>
+database_id = "bfe0f12e62c8-47f7bd8586e3d960437b" # wrangler d1 info <YOUR_DATABASE_NAME>
 
 [observability.logs]
 enabled = true
